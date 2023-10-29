@@ -1,7 +1,4 @@
 -- a build of barcode from March 25th 2023
--- I had nothing to do with the "extras" tab (that was handled by the owners), so the autofarm you see never went into production
--- and nothing in the extras tab will be in here
-
 -- the build file is a result of taking the main.lua file and replacing `require` calls with the source of the module file
 
 if game:GetService("CoreGui"):FindFirstChild("BC_Loading") then
