@@ -1,11 +1,19 @@
 --[=[
     THIS SCRIPT IS NOT INTENDED TO BE A FINAL PRODUCT!!
     There are many places in this script that could be aproved on, however this is just a project that I am using to gain experience!
-    There are also many places that I would implement differently if this weren't a private script.
+    There are also many things that I would implement differently if this weren't a private script.
 
     Version: CLEAN
 ]=]
 
+--[=[ 2025 notes
+
+this is Coconut, my first assassin script. there are some videos of it on youtube-- it's the one with the skinny gray ui things that looked like kiriot hub a little.
+anyway yeah enjoy this for learning. don't expect the ac bypass to work at all.
+
+reach out to me @techhog on discord if you have any questions
+    
+]=]
 
 --Check is Assassin
 local HttpLoad = shared.HttpLoad or nil;if HttpLoad == nil then do
@@ -811,3 +819,4 @@ end;
 UISection:Dropdown{"Theme", ThemeDropdownOptions, "Dark", function(Option) Gui:ChangeTheme(Option) end};
 
 GrayedLib:Notification{"Coconut loaded!", "Message TechHog#8984 if\nyou have any issues.", 1};
+
