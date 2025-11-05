@@ -1,3 +1,16 @@
+--[=[
+
+this is a network spy for Assasin.
+it's just a gui that shows packets as they get sent.
+i found it super fascinating.
+
+it uses `syn.set_thread_identity` so it won't run from the getgo even if it does still work.
+i don't think the syntax highlighting was good but i don't remember 100%
+
+reach out to me @techhog on discord if you have any questions
+
+]=]
+
 local function GetGUI()
     --GuiToLua V3
 
@@ -736,4 +749,5 @@ getrawmetatable(FireServer).__call = function(...)
     end;
 
     return OldCall(...);
+
 end;
